@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .header {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to top, #ffffff, #fbfbfb, #f7f7f7, #f4f4f4, #f0f0f0);
+    padding-top: 100px;
+}
+
+.container {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+
+.sheet {
+    box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2);
+    margin-bottom: 100px;
+}
+
+.aside {
+    background-color: #32353a;
+    padding: 15px;
+}
+
+.aside * {
+    color: #f9f9f9
+}
+
+.aside-photo-container {
+    margin: -15px;
+    position: relative;
+}
+
+.aside-photo {
+    overflow: hidden;
+    max-width: 320px;
+    padding: 0;
+    
+}
+
+.aside-photo img {
+    width: 100%;
+    
+}
+
+.aside-cv {
+    margin-top: 30px;
+}
+
+
+.name-overlay {
+    background: rgba(118, 183, 79, 0.7);
+    padding: 0 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.name-overlay h1 {
+    font-size: 1.8rem;
+}
+
+.contact-item {
+    margin-bottom: 10px;
+    display: flex;
+    font-display: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contact-item .icon {
+    font-size: 1.5rem;
+}
+
+.contact-item span, .contact-item a {
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.2;
+    font-size: 1rem;
+}
+
+.degree-label {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.university-label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-bottom: 30px;
+}
+
+.skill {
+    display: inline-block;
+    border-radius: 15px;
+    border: 2px #777 solid;
+    padding: 5px;
+    margin: 0 5px 5px;
+    transition: all ease .25s;
+    cursor: default;
+}
+
+.skill:hover {
+    border-color: #76b74f;
+}
+
+
+
+
+.main {
+    padding: 50px 15px 15px;
+    background-color: #f9f9f9;
+}
+
+.main * {
+    color:  #32353a;
+}
+
+.cv-section__header {
+    color: #76b74f;
+    line-height: 35px;
+    padding-bottom: 15px;
+    border-bottom: solid 1px #32353a;
+    position: relative;
+    font-size: 2rem;
+}
+
+.cv-section__header::after {
+    content: ' ';
+    position: absolute;
+    width: 100px;
+    bottom: 0;
+    left: 0;
+    border-top: solid 2px #32353a;
+}
+
+.aside .cv-section__header, .aside .cv-section__header::after {
+    border-color: #f9f9f9;
+}
+
+.position-container {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.position {
+    
+}
+
+.position__header {
+    display: inline-block;
+    margin-bottom: 0
+}
+
+.position__period {
+    margin-top: 5px;
+    color: rgba(50, 53, 58, 0.5);
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.nested {
+    padding-left: 1rem;
+}
+
+.nested .position__header {
+    margin-top: 0;
+}
+
+.position__company {
+    font-style: italic;
+}
+
+.position__description {
+
+}
+
+.position__responsibilities-container {
+
+}
+
